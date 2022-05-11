@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.jpg" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Menu</h2>
+                                <p>Pedidos</p>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra"></div>
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Entradas</h1> 
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/sopa_de fideo.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Sopa de fideo</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"><span class="u-pull-right ">$55</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/Spaghetti.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Spaghetti</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio"><span class="u-pull-right ">$55</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/crema.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Crema de champiñones</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio"><span class="u-pull-right ">$55</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <h1 id="encabezado" class="encabezado">Cortes</h1> 
+        <div class="barra"></div>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/churrasco.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Corte churrasco</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"><span class="u-pull-right ">$200</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/new_york.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Corte new york steak</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio"><span class="u-pull-right ">$200</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/rib_eye.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Corte rib eye</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio"><span class="u-pull-right ">$200</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/t-bone.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Corte T-bone</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio"><span class="u-pull-right ">$200</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/PORTERHOUSE.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Corte porterhouse</h4>                            <img src="img/estrellas.png">
+                            <p class="precio"><span class="u-pull-right ">$200</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/TOMAHAWK.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Corte tomahawk</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio"><span class="u-pull-right ">$200</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        
+        <h1 id="encabezado" class="encabezado">Postres</h1> 
+        <div class="barra"></div>
+
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/pastel.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Pastel de chocolate</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio"><span class="u-pull-right ">$55</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/chocoflan.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Choco flan</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio"><span class="u-pull-right ">$55</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/paylimon.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Pay de limon</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio"><span class="u-pull-right ">$55</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+
+    <footer id="footer" class="footer">
+        <div class="container"></div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
